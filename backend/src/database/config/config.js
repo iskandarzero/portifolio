@@ -14,10 +14,15 @@ const options = {
   database: process.env.PGDATABASE,
   username: process.env.PGUSER,
   password: process.env.PGPASSWORD,
-  dialect: "postgres",
-  define: {
-    timestamps: true,
-  }
+  // dialect: "postgres",
+  // define: {
+  //   timestamps: true,
+  // }
+  dialect: "mysql",
+  dialectOptions: {
+    timezone: "Z",
+  },
+  logging: false,
 };
 
 module.exports = {
