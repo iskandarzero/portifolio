@@ -1,9 +1,10 @@
 module.exports = {
   async up (queryInterface) {
     await queryInterface.bulkInsert(
-      'projects',
+      'Projects',
       [
         {
+          id: 1,
           name: 'Trybe Futebol Clube',
           image: 'teste',
           url: 'https://tfc-vercel-mu.vercel.app/leaderboard',
@@ -11,6 +12,7 @@ module.exports = {
           description: 'placeholder'
         },
         {
+          id: 2,
           name: 'Delivery App',
           image: 'teste',
           url: 'https://delivery-app-vercel.vercel.app/login',
@@ -22,6 +24,6 @@ module.exports = {
   },
 
   async down (queryInterface) {
-    await queryInterface.bulkDelete('projects', null, {});
+    await queryInterface.bulkDelete('Projects', null, {});
   },
 };
