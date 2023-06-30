@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         'nav': '#1F1F1F',
+        'abt': '#131313',
         'yel': '#D7B400'
       },
       spacing: {
