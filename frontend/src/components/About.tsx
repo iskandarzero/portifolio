@@ -7,7 +7,7 @@ import
 import { LiaJava } from 'react-icons/lia';
 
 function About() {
-  const style = {color: "#D7B400", fontSize: 70};
+  const style = {color: "#D7B400", fontSize: 65};
 
   return (
     <div className="flex flex-col justify-center bg-abt text-white h-screen">
