@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         'nav': '#1F1F1F',
         'abt': '#131313',
+        'hero': '#222222',
         'yel': '#D7B400'
       },
       spacing: {
