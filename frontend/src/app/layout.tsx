@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import About from '@/components/About';
+import Repository from '@/components/Repository';
 
 const dmMono = DM_Mono({ weight: '400', subsets: ['latin'] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Navbar />
         <HeroSection />
         <About />
+        <Repository />
         {children}
       </body>
     </html>
