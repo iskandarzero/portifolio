@@ -3,6 +3,7 @@ export default interface Project {
     name: string,
     image: string,
     url: string,
+    type: string,
     description: string,
     github: string
 }
