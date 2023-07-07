@@ -10,7 +10,7 @@ function About() {
   const style = {color: "#D7B400", fontSize: 65};
 
   return (
-    <div className="flex flex-col justify-center bg-abt text-white h-screen">
+    <div id="about" className="flex flex-col justify-center bg-abt text-white h-screen">
       <div className="flex flex-col items-center">
         <h2 className="text-[2.3vw] mb-[1vw]">Olá, eu sou o Isaac!</h2>
         <div className="text-[1.3vw] mb-[1vw]">

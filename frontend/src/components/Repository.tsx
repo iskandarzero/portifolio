@@ -28,9 +28,9 @@ export default function Repository() {
   }
 
   return (
-    <div className="bg-hero h-screen flex items-center flex-col">
-      <h1 className="text-white text-[1.3vw] mt-[70px] mb-[25px]">Projetos</h1>
-      <div className="mb-[60px]">
+    <div id="projects" className="bg-hero h-screen flex items-center flex-col">
+      <h1 className="text-white text-[1.3vw] mt-[4vw] mb-[25px]">Projetos</h1>
+      <div className="mb-[55px]">
         <button className="mx-3.5 p-2 bg-yel hover:bg-yellow-400 active:bg-yellow-500" onClick={() => changeStatus('all')}>Todos</button>
         <button className="mx-3.5 p-2 bg-yel hover:bg-yellow-400 active:bg-yellow-500" onClick={() => changeStatus('front-end')}>Front-end</button>
         <button className="mx-3.5 p-2 bg-yel hover:bg-yellow-400 active:bg-yellow-500" onClick={() => changeStatus('back-end')}>Back-end</button>
