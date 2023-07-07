@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import About from '@/components/About';
 import Repository from '@/components/Repository';
+import Contact from '@/components/Contact';
 
 const dmMono = DM_Mono({ weight: '400', subsets: ['latin'] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <HeroSection />
         <About />
         <Repository />
+        <Contact />
         {children}
       </body>
     </html>
