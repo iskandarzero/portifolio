@@ -7,75 +7,73 @@ import
 import { LiaJava } from 'react-icons/lia';
 
 function About() {
-  const style = {color: "#D7B400", fontSize: 65};
+  const style = {color: "#D7B400"};
 
   return (
     <div id="about" className="flex flex-col justify-center bg-abt text-white h-screen">
       <div className="flex flex-col items-center">
-        <h2 className="text-[2.3vw] mb-[1vw]">Olá, eu sou o Isaac!</h2>
-        <div className="text-[1.3vw] mb-[1vw]">
-          Sou um desenvolvedor em início de carreira, e alguém<br/>
-          que ama criar e contar histórias! Atualmente resido<br/>
-          em Curitiba - PR lorem ipslum lorem ipslum lol haha
+        <h2 className="text-3xl mb-[1vw]">Sobre mim</h2>
+        <div className="md:text-xl mb-[1vw] md:w-[65%] w-[86%]">
+        Me chamo Isaac Farias, sou um desenvolvedor web com conhecimentos full stack, porém possuo preferência por back-end. Sou alguém que ama criar e contar histórias, e esse amor me impulsiona a aprender e evoluir profissionalmente na área de tecnologia. Atualmente resido em Curitiba – PR e estou buscando por uma oportunidade profissional.
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <h2 className="text-[2.3vw] mb-[1.5vw]">Tecnologias</h2>
-        <div className="flex flex-wrap w-[31vw] space-x-3 justify-evenly">
-          <h3 className="ml-[12px] text-[12px] mb-1 flex flex-col items-center">
-            <SiJavascript style={style} className="mb-1" />
+        <h2 className="text-3xl mb-[10px]">Tecnologias</h2>
+        <div className="flex flex-wrap w-[70%] md:w-[60%] space-x-3 justify-evenly">
+          <h3 className="text-[12px] mb-1 flex flex-col items-center">
+            <SiJavascript style={style} className="mb-1 text-4xl md:text-6xl" />
             JavaScript
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiTypescript style={style} className="mb-1" />
+            <SiTypescript style={style} className="mb-1 text-4xl md:text-6xl" />
             Typescript
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <LiaJava style={style} className="mb-1" />
+            <LiaJava style={style} className="mb-1 text-4xl md:text-6xl" />
             Java
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiPython style={style} className="mb-1" />
+            <SiPython style={style} className="mb-1 text-4xl md:text-6xl" />
             Python
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiDocker style={style} className="mb-1" />
+            <SiDocker style={style} className="mb-1 text-4xl md:text-6xl" />
             Docker
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiGit style={style} className="mb-1" />
+            <SiGit style={style} className="mb-1 text-4xl md:text-6xl" />
             Git
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiNodedotjs style={style} className="mb-1" />
+            <SiNodedotjs style={style} className="mb-1 text-4xl md:text-6xl" />
             Node.js
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiMongodb style={style} className="mb-1" />
+            <SiMongodb style={style} className="mb-1 text-4xl md:text-6xl" />
             MongoDb
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiReact style={style} className="mb-1" />
+            <SiReact style={style} className="mb-1 text-4xl md:text-6xl" />
             React
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiExpress style={style} className="mb-1" />
+            <SiExpress style={style} className="mb-1 text-4xl md:text-6xl" />
             Express
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiNextdotjs style={style} className="mb-1" />
+            <SiNextdotjs style={style} className="mb-1 text-4xl md:text-6xl" />
             Next.js
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiMysql style={style} className="mb-1" />
+            <SiMysql style={style} className="mb-1 text-4xl md:text-6xl" />
             MySQL
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiSequelize style={style} className="mb-1" />
+            <SiSequelize style={style} className="mb-1 text-4xl md:text-6xl" />
             Sequelize
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiPostgresql style={style} className="mb-1" />
+            <SiPostgresql style={style} className="mb-1 text-4xl md:text-6xl" />
             PostgreSQL
           </h3>
         </div>
