@@ -18,10 +18,10 @@ function About() {
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <h2 className="text-3xl mb-[10px]">Tecnologias</h2>
-        <div className="flex flex-wrap w-[70%] md:w-[60%] space-x-3 justify-evenly">
+        <h2 className="text-3xl mb-[1vw]">Tecnologias</h2>
+        <div className="flex flex-wrap w-[80%] space-x-3 justify-evenly">
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
-            <SiJavascript style={style} className="mb-1 text-4xl md:text-6xl" />
+          <SiJavascript style={style} className="mb-1 text-4xl md:text-6xl" />
             JavaScript
           </h3>
           <h3 className="text-[12px] mb-1 flex flex-col items-center">
