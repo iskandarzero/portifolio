@@ -14,10 +14,18 @@ module.exports = {
         {
           id: 2,
           name: 'Delivery App',
-          image: 'http://localhost:3001/images/trybe-futebol-clube.gif',
+          image: 'http://localhost:3001/images/delivery-app.gif',
           url: 'https://delivery-app-vercel.vercel.app/login',
           type: 'full stack',
           github: 'https://github.com/iskandarzero/delivery-app',
+        },
+        {
+          id: 3,
+          name: "Recipes App",
+          image: 'http://localhost:3001/images/recipes-app.gif',
+          url: 'https://recipes-app-ochre-mu.vercel.app/',
+          type: 'front-end',
+          github: 'https://github.com/iskandarzero/recipes-app',
         },
       ],
     );
