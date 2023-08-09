@@ -10,8 +10,8 @@ import Link from 'next/link'
 export default function Contact() {
   return (
     <div id="contact" className="flex items-center bg-abt h-screen relative">
-      <Image src={contact} alt="Imagem da seção de contatos" className="m-[1vw] h-[44vw] w-auto absolute invisible md:visible" />
-      <div className="flex flex-col-reverse md:flex-row bg-yel w-full md:max-h-[60%] max-h-full md:justify-end py-[1vw]">
+      <Image src={contact} alt="Imagem da seção de contatos" className="m-[1vw] h-[44vw] w-auto absolute invisible lg:visible" />
+      <div className="flex flex-col-reverse md:flex-row bg-yel w-full lg:max-h-[60%] max-h-full md:justify-end py-[1vw]">
         <div className="flex self-center md:self-auto md:items-start flex-col flex-wrap justify-evenly md:border-r-[1px] border-black mr-[1vw] mb-[10vw] md:mb-0">
           <Link href="https://github.com/iskandarzero" target="_blank">
             <p className="mr-[1vw] flex items-center md:text-base"><FaGithub size={25} className="mr-[0.1vw]"/>GitHub</p>
