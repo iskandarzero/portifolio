@@ -14,7 +14,10 @@ function About() {
       <div className="flex flex-col items-center">
         <h2 className="text-3xl mb-[1vw]">Sobre mim</h2>
         <div className="md:text-xl mb-[1vw] md:w-[65%] w-[86%]">
-        Me chamo Isaac Farias, sou um desenvolvedor web com conhecimentos full stack, porém possuo preferência por back-end. Sou alguém que ama criar e contar histórias, e esse amor me impulsiona a aprender e evoluir profissionalmente na área de tecnologia. Atualmente resido em Curitiba – PR e estou buscando por uma oportunidade profissional.
+        {`Me chamo Isaac Farias, sou um desenvolvedor web full stack. Sou alguém que 
+        ama criar e contar histórias, e esse amor me impulsiona a aprender e evoluir 
+        profissionalmente na área de tecnologia. Atualmente resido em Curitiba – PR 
+        e estou buscando por uma oportunidade profissional.`}
         </div>
       </div>
       <div className="flex flex-col items-center">
