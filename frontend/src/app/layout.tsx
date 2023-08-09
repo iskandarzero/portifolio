@@ -1,10 +1,8 @@
 import { DM_Mono } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
-import HeroSection from '@/components/HeroSection';
-import About from '@/components/About';
-import Repository from '@/components/Repository';
-import Contact from '@/components/Contact';
+import logo from "../../public/images/logo.png"
+import Footer from '@/components/Footer';
 
 const dmMono = DM_Mono({ weight: '400', subsets: ['latin'] });
 
@@ -22,11 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={dmMono.className}>
         <Navbar />
-        <HeroSection />
-        <About />
-        <Repository />
-        <Contact />
         {children}
+        <Footer />
       </body>
     </html>
   );
