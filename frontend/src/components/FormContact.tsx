@@ -2,7 +2,8 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function FormContact() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
+
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -15,10 +16,10 @@ export default function FormContact() {
 
   const sendEmail = (e:any) => {
     e.preventDefault();
-    console.log(form.current);
+    const currentForm = form.current;
     
-    if (values.name && values.email && values.message) {
-      emailjs.sendForm('service_5oxuwgi', 'template_hh35z6l', form.current, 'XCvDESgIxLmpqo66H')
+    if (values.name && values.email && values.message && currentForm) {
+      emailjs.sendForm('service_5oxuwgi', 'template_hh35z6l', currentForm, 'XCvDESgIxLmpqo66H')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
