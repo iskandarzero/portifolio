@@ -10,7 +10,7 @@ function About() {
   const style = {color: "#D7B400"};
 
   return (
-    <div id="about" className="flex flex-col justify-center bg-abt text-white md:h-screen h-fit py-10">
+    <div id="about" className="flex flex-col justify-center bg-abt text-white lg:h-screen h-fit py-10">
       <div className="flex flex-col items-center">
         <h2 className="text-3xl mb-[1vw]">Sobre mim</h2>
         <div className="md:text-xl mb-[10vw] md:w-[65%] w-[86%] text-center">
