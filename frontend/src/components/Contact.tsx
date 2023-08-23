@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function Contact() {
   return (
-    <div id="contact" className="flex items-center bg-abt h-screen relative">
+    <div id="contact" className="flex items-center bg-abt md:h-screen h-fit relative">
       <Image src={contact} alt="Imagem da seção de contatos" className="m-[1vw] h-[44vw] w-auto absolute invisible lg:visible" />
       <div className="flex flex-col-reverse md:flex-row bg-yel w-full lg:max-h-[60%] max-h-full md:justify-end py-[1vw]">
         <div className="flex self-center md:self-auto md:items-start flex-col flex-wrap justify-evenly md:border-r-[1px] border-black mr-[1vw] mb-[10vw] md:mb-0">
