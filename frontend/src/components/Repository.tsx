@@ -9,6 +9,7 @@ export default function Repository() {
   const [projects, setProjects] = useState([]);
   const [status, setStatus] = useState("all");
   const [filteredProjects, setFilteredProjects] = useState([]);
+  const loading = <h1 className="text-white">Loading...</h1>
 
   useEffect(() => {
     const fetch = async () => {
@@ -70,12 +71,15 @@ export default function Repository() {
         </button>
       </div>
       <div className="flex flex-col md:flex-row justify-center w-[70vw] mb-[30px]">
-        {filteredProjects.length > 0 ?
-        filteredProjects.map((projectData, i) => (
-          <ProjectCard project={projectData} key={i} />
-        )) : projects.map((projectData, i) => (
-          <ProjectCard project={projectData} key={i} />
-        ))}
+        {projects.length === 0 ? loading :
+          filteredProjects.length > 0 ?
+            filteredProjects.map((projectData, i) => (
+              <ProjectCard project={projectData} key={i} />
+            )) : projects.map((projectData, i) => (
+              <ProjectCard project={projectData} key={i} />
+            ))
+        }
+        
       </div>
     </div>
   )
