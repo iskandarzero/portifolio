@@ -12,7 +12,7 @@ function Navbar() {
   const style = {color: "#D7B400", fontSize: 35};
 
   return (
-    <nav className="flex flex-col md:flex-row w-full bg-nav min-h-[60px] items-center md:justify-around sm:justify-between fixed z-10">
+    <header className="flex flex-col md:flex-row w-full bg-nav min-h-[60px] items-center md:justify-around sm:justify-between fixed z-10">
       <div className="flex min-h-[60px] w-full md:h-auto md:w-auto justify-between items-center">
         <Link
         href="#home" className="ml-[10%] md:ml-0">
@@ -22,7 +22,7 @@ function Navbar() {
           {navbar ? <MdClose style={style} /> : <GiHamburgerMenu style={style} />}
         </button>
       </div>
-      <div className={`md:flex md:w-[25rem] text-white md:justify-between ${
+      <nav className={`md:flex md:w-[25rem] text-white md:justify-between ${
         navbar ? 'h-screen flex flex-col items-center w-[60%] mt-[10%]' : 'hidden'}`}>
         <Link
           className="md:hover:text-yel text-3xl md:text-base pb-6 py-2 md:py-0 hover:bg-yel md:hover:bg-transparent text-center border-b-[1px] w-full border-yel md:border-b-0"
@@ -48,9 +48,9 @@ function Navbar() {
         >
           Contato
         </Link>
-      </div>
+      </nav>
       <div className="md:flex md:w-[40px] sm:hidden"></div>
-    </nav>
+    </header>
   )
 }
 
